@@ -1,9 +1,9 @@
 _Titre de la pratique_
 ==========================
 
-_texte décrivant la pratique et précisant l'impact sur la qualité de l'artefact ciblé_
+_texte décrivant la pratique et précisant l'impact sur l'artefact ciblé_
 
-_il faut aussi décrire les risques encourrus si on ne respecte pas la pratique_
+_il faut aussi décrire les risques encourus si l'on ne respecte pas la pratique_
 
 Objectif
 --------
