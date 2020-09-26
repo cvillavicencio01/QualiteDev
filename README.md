@@ -57,7 +57,7 @@ Cada artefacto puede ser modificado, permitiendo que el software evolucione. As�
 
 Nuestra lista de prácticas indispensables es completamente abierta.
 
-La [guía de redacción](./METHOD.md) de las prácticas describe el método que utilizamos. Este método también es abierto a modificaciones.
+La [guía de redacción](./METHODE.md) de las prácticas describe el método que utilizamos. Este método también es abierto a modificaciones.
 
 
 QUIZ: ¿Sigue las prácticas recomendadas?
