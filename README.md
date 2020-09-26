@@ -11,7 +11,7 @@ Así que, ¿conoce algunas prácticas esenciales de ingeniería de software? Si 
 ¿Por qué no te pruebas a ti mismo con [nuestro cuestionario](https://docs.google.com/forms/d/e/1FAIpQLSdvq-DgoZ8mJMLnCYOcagYdgb6h-LH-XZ3yidtTQfFGSEF1DQ/viewform)?
 
 Aquí proporcionamos una lista mínima de puntos de control que se aplican a cualquier proyecto de software.
-Consideramos [6 artefactos](#pourquoi-6-artefacts-) sobre los cuales la producción debe ser absolutamente controlada.
+Consideramos [6 artefactos](#por-qué-6-artefactos) sobre los cuales la producción debe ser absolutamente controlada.
 El enfoque que proponemos es muy minimalista y muy orientado al "Desarrollador" (por lo tanto, técnico).
 
 ![Los 6 artefactos](artefacts.png)
