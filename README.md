@@ -1,73 +1,78 @@
-La valeur dans les projets logiciels vue par un développeur
+El valor de los proyectos de software desde el punto de vista de un desarrollador
 ============================================================
 
-Vous êtes un développeur et, comme tout développeur, vous êtes soucieux de la valeur de vos développements.
+Usted es un desarrollador y, como cualquier desarrollador, le preocupa el valor de sus proyectos de software.
 
-Pour autant, lorsque vous démarrez un projet logiciel, vous n'avez peut-être pas une vision précise des différents points qu'il faut prendre en compte.
-Certes, il faut être soucieux du code ... mais aussi des tests, des issues, des tâches, de la documentation et des releases.
+Sin embargo, cuando se inicia un proyecto de software, es posible que no se tenga una visión clara de los diferentes puntos que deben tenerse en cuenta.
+Por supuesto, tienes que preocuparte por el código... pero también por las pruebas, los requisitos de usuario, las tareas, la documentación y los lanzamientos (releases).
 
-Du coup, connaissez vous des pratiques incontournables du génie logiciel ? Si oui, les appliquez-vous ? Savez-vous mesurer les bénéfices qu'elles apportent ? Savez-vous identifier les pertes que vous risquez à ne pas les suivre ?
+Así que, ¿conoce algunas prácticas esenciales de ingeniería de software? Si es así, ¿las aplica? ¿Sabe cómo medir los beneficios que aportan? ¿Sabe cómo identificar las pérdidas a las que se arriesga por no seguirlas?
 
-Et si vous vous testiez grâce à [notre quizz](https://docs.google.com/forms/d/e/1FAIpQLSdvq-DgoZ8mJMLnCYOcagYdgb6h-LH-XZ3yidtTQfFGSEF1DQ/viewform) ?
+¿Por qué no te pruebas a ti mismo con [nuestro cuestionario](https://docs.google.com/forms/d/e/1FAIpQLSdvq-DgoZ8mJMLnCYOcagYdgb6h-LH-XZ3yidtTQfFGSEF1DQ/viewform)?
 
-Nous proposons ici une liste minimale des points à contrôler s'appliquant à n'importe quel projet logiciel.
-Nous considérons [6 artefacts](#pourquoi-6-artefacts-) sur lesquels la production doit être absolument contrôlée.
-L'approche que nous proposons est très minimaliste et très orientée "développeur" (donc technique).
+Aquí proporcionamos una lista mínima de puntos de control que se aplican a cualquier proyecto de software.
+Consideramos [6 artefactos](#pourquoi-6-artefacts-) sobre los cuales la producción debe ser absolutamente controlada.
+El enfoque que proponemos es muy minimalista y muy orientado al "Desarrollador" (por lo tanto, técnico).
 
-![Les 6 artefacts](artefacts.png)
+![Los 6 artefactos](artefacts.png)
 
-**Elle permet à tout développeur de mieux comprendre les enjeux de la production logicielle !**
+**¡Permite a cualquier desarrollador entender mejor lo que está en juego en la producción de software!**
 
-Notre approche n'a pas pour objectif de répondre à toutes les problématiques du chef de projet. Il y a des méthodes bien adaptées à cela.
+Nuestro enfoque no pretende responder a todos los problemas del Director de Proyecto (Project Manager). Hay métodos que se adaptan bien a esto.
 
-L'objectif est de pouvoir mesurer la qualité technique d'un projet logiciel en fonction de ces 6 artefacts. Vous pourrez ainsi savoir si votre projet est idéal (ou presque), s'il est bien organisé (les issues et les tâches ont une très bonne qualité, par contre le code, les tests, la doc et les releases moins), ou s'il est plutôt technique (le code et les tests ont une bonne qualité mais pas les issues, les tâches, la doc et les releases), etc.
+El objetivo es poder medir la calidad técnica de un proyecto de software basado en estos 6 artefactos. De este modo, podrá saber si su proyecto es ideal (o casi), si está bien organizado (si las tareas y los requisitos de usuario tienen una calidad muy buena, pero el código, las pruebas, los documentos y las versiones no tanto), o si es más bien técnico (si el código y las pruebas tienen una buena calidad, pero no los requisitos, las tareas, los documentos y los lanzamientos no son tan buenos), etc.
 
-![Production logicielle](radar.png)
+![Producción de software](radar.png)
 
-Notre approche se veut ouverte. Elle est donc matérialisée par un projet GitHub afin de favoriser tout un chacun à y participer (n'hésitez pas à envoyer vos pull-request). La [méthode employée](./METHODE.md) pour réaliser notre objectif est elle aussi ouverte et clairement détaillée permettant de bien mesurer l'apport de chaque pratique.
+Nuestro enfoque está pensado para ser abierto. Por lo tanto, se materializa en un proyecto GitHub para animar a todos a participar (no duden en enviar sus pull-request). El [método utilizado](./METHODE.md) para lograr nuestro objetivo también es abierto y claramente detallado, lo que nos permite medir la contribución de cada práctica.
 
-Les Pratiques Incontournables
+
+Mejores prácticas
 ===============================
 
-* [issues : l'expression des besoins que le logiciel doit couvrir](./issue/)
-* [tâches : les travaux à effectuer pour réaliser les issues](./tache/)
-* [tests : la vérification du logiciel](./test/)
-* [code source : les instructions que la machine va exécuter](./code/)
-* [documentation : les explications du logiciel](./doc/)
-* [release : ce qui va être déployé, exécuté et donc utilisé](./release/)
+* [requisitos de usuario: la expresión de las necesidades que el software debe cubrir](./issue/)
+* [tareas: el trabajo que hay que hacer para lograr completar los requisitos](./tache/)
+* [pruebas: verificación del software](./test/)
+* [código fuente: las instrucciones que la computadora ejecutará](./code/)
+* [documentación: explicaciones sobre el software](./doc/)
+* [lanzamiento : lo que será desplegado, ejecutado y por lo tanto utilizado](./release/)
 
-Pourquoi 6 artefacts ?
+
+¿Por qué 6 artefactos?
 ======================
 
-Nous considérons que toute production de logiciel nécessite l'élaboration d'au moins six artefacts : Issue, Tâche, Test, Code source, Documentation, Release.
+Consideramos que cualquier producción de software requiere el desarrollo de al menos seis artefactos: Problema??, Tarea, Prueba, Código fuente, Documentación, Lanzamiento.
 
-Chacun des ces artefacts est facilement identifiable par des fichiers (même si la documentation peut être incluse dans un fichier de code source, il est facile de la distinguer).
+Cada uno de estos artefactos es fácilmente identificable por los archivos (aunque la documentación puede incluirse en un archivo de código fuente, es fácil distinguirla).
 
-Chaque artefact a des pratiques qui lui sont propres. Les pratiques incontournables que nous identifions ciblent un type d'artefact et améliorent un de ses aspects.
+Cada artefacto tiene sus propias prácticas. Las prácticas imprescindibles que identificamos apuntan a un tipo de artefacto y realzan uno de sus aspectos.
 
-Chaque artefact est en relation avec les autres artefacts. Une pratique ciblant un artefact a donc un effet sur les autres artefacts en relation.
+Cada artefacto está relacionado con los demás. Por consiguiente, una práctica dirigida a un artefacto tiene un efecto en los otros artefactos relacionados.
 
-Chaque artefact peut être modifié permettant ainsi de faire évoluer le logiciel. Une pratique permet ainsi de préciser la façon dont les modifications doivent être réalisées pour améliorer l'artefact.
+Cada artefacto puede ser modificado, permitiendo que el software evolucione. Así pues, la práctica permite especificar cómo deben hacerse las modificaciones para mejorar el artefacto.
 
-Quelle méthode est employée pour identifier une pratique incontournable ?
-=========================================================================
 
-Notre liste des pratiques incontournables est complètement ouverte.
+¿Qué método se utiliza para identificar una práctica indispensable?
+===================================================================
 
-Le [guide de rédaction](./METHODE.md) des pratiques décrit la méthode que nous avons utilisée. Cette méthode est elle aussi ouverte.
+Nuestra lista de prácticas indispensables es completamente abierta.
 
-QUIZZ : Suivez-vous les pratiques incontournables ?
-===================================================
+La [guía de redacción](./METHOD.md) de las prácticas describe el método que utilizamos. Este método también es abierto a modificaciones.
 
-Nous vous proposons un Quizz qui vous permettra de mesurer l'état de vos pratiques. Vous pourrez ainsi savoir quels sont artefacts sur lesquels vous pouvez améliorer vos pratiques.
 
-Répondez à maintenant [notre quizz](https://docs.google.com/forms/d/e/1FAIpQLSdvq-DgoZ8mJMLnCYOcagYdgb6h-LH-XZ3yidtTQfFGSEF1DQ/viewform) !
+QUIZ: ¿Sigue las prácticas recomendadas?
+==================================
 
-Ce qu'est notre approche et ce qu'elle n'est pas ?
-=========================================================================
+Le proponemos un cuestionario que le permitirá medir el estado de sus prácticas. Así podrá saber qué artefactos puede mejorar sus hábitos.
 
-Notre approche liste des pratiques incontournables s'appliquant à tout projet logiciel. Chaque pratique listée est clairement détaillée et sa valeur ajoutée est rigoureusement qualifiée permettant ainsi de mesurer son effet.
+¡Responde ahora [nuestro cuestionario] (https://docs.google.com/forms/d/e/1FAIpQLSdvq-DgoZ8mJMLnCYOcagYdgb6h-LH-XZ3yidtTQfFGSEF1DQ/viewform)!
 
-Notre approche n'est pas une nouvelle méthode expliquant les différentes étapes à réaliser pour développer un logiciel. Pour autant, certaines pratiques proposées par certaines méthodes améliorant la qualité sont référencées.
 
-Notre approche n'est pas un nouveau standard de production logiciel. Notre objectif n'est absolument pas d'en définir un nouveau. L'objectif étant de référencer des pratiques incontournables et de préciser quels aspects elles améliorent.
+¿Cuál es nuestro enfoque y cuál no lo es?
+=========================================
+
+Nuestro enfoque enumera las prácticas indispensables que se aplican a cualquier proyecto de software. Cada práctica enumerada se detalla claramente y su valor añadido se califica rigurosamente para poder medir su efecto.
+
+Nuestro enfoque no es un método nuevo que explique los diferentes pasos a seguir para desarrollar software. No obstante, hace referencia a algunas prácticas propuestas por algunos métodos de mejora de la calidad.
+
+Nuestro enfoque no es un nuevo estándar de producción de software. Nuestro objetivo no es en absoluto definir uno nuevo. El objetivo es hacer referencia a las prácticas habituales y especificar qué aspectos mejoran.
