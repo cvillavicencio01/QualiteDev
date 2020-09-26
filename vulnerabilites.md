@@ -1,30 +1,24 @@
-_Coder sans vulnérabilités_
+_Codificar sin vulnerabilidades_
 ==========================
 
-Tout développement logiciel doit être réalisé en ayant en tête les possibles vulnérabilités
-qui découlent d'une mauvaise utilisation d'une bibliothèque, d'un manque de vérification des
-données externes, de mauvaises pratiques de programmation.
+Cualquier desarrollo de software debe realizarse teniendo en cuenta las posibles vulnerabilidades que resultan del mal uso de una biblioteca, la falta de verificación de los datos externos, las malas prácticas de programación.
 
-Les failles découvertes dans les logiciels sont répertoriées au sein des [Common Vulnerability and Exposure](https://cve.mitre.org).
+Las vulnerabilidades descubiertas en el software están listadas en [Common Vulnerability and Exposure](https://cve.mitre.org).
 
-Pour le cas des applications web, les causes des failles les plus souvent répertoriées sont disponibles
-sur le site de [Open Web Application Security Project (OWASP)](https://www.owasp.org/index.php/Main_Page).
+En el caso de las aplicaciones web, las causas de las vulnerabilidades más frecuentes pueden consultarse en el sitio web del [Open Web Application Security Project (OWASP)](https://www.owasp.org/index.php/Main_Page).
 
-Objectif
+Objetivo
 --------
 
-L'objectif de cette pratique est de s'assurer que tout membre de l'équipe de développement
-est conscient des failles les plus courantes existant autour des langages et bibliothèques utilisées.
+El objetivo de esta práctica es asegurar que cualquier miembro del equipo de desarrollo es consciente de los fallos más comunes en los lenguajes y bibliotecas utilizadas.
 
-Il est important de s'abonner aux listes de notification d'alertes de sécurité des bibliothèques ou logiciels utilisés.
+Es importante suscribirse a las listas de notificación de alerta de seguridad de las bibliotecas o del software utilizado.
 
-Il est important d'utiliser des outils d'analyse statique de code pour vérifier de manière automatique que
-les vulnérabilités courantes sont prises en compte dans le développement de l'application.
+Es importante utilizar herramientas de análisis de código estático para comprobar automáticamente que se tienen en cuenta las vulnerabilidades comunes en el desarrollo de la aplicación.
 
-Contrôle
+Control
 --------
 
-Le contrôle de cette pratique se fait essentiellement par revue de code par un expert.
+El control de esta práctica se realiza esencialmente mediante un examen del código por un experto.
 
-Si un outil d'analyse statique de code est mis en place, il est possible de surveiller les métriques de vulnérabilité
-durant le cycle de développement.
+Si se implementa una herramienta de análisis de código estático, es posible monitorear la métrica de la vulnerabilidad durante el ciclo de desarrollo.
