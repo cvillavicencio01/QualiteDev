@@ -35,7 +35,7 @@ Mejores prácticas
 * [pruebas: verificación del software](./test/)
 * [código fuente: las instrucciones que la computadora ejecutará](./code/)
 * [documentación: explicaciones sobre el software](./doc/)
-* [lanzamiento : lo que será desplegado, ejecutado y por lo tanto utilizado](./release/)
+* [lanzamiento: lo que será desplegado, ejecutado y por lo tanto utilizado](./release/)
 
 
 ¿Por qué 6 artefactos?
