@@ -24,4 +24,4 @@ Por consiguiente, la descripción de una buena práctica incluye los siguientes 
 * el tipo de artefacto que se ha elegido como objetivo
 * la contribución de la práctica (o el efecto negativo en caso de incumplimiento)
 * el objetivo que se persigue con la práctica, es decir, qué hacer para mejorar la calidad del artefacto
-* los medios para controlar el cumplimiento. Esto puede ser evidencia, indices o impresiones.
+* los medios para controlar el cumplimiento. Esto puede ser evidencia, datos o impresiones.
