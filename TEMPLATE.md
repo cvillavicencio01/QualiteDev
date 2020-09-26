@@ -1,22 +1,22 @@
-_Titre de la pratique_
+_Título de la práctica_
 ==========================
 
-_texte décrivant la pratique et précisant l'impact sur l'artefact ciblé_
+_texto que describe la práctica y que especifica el impacto en el artefacto en cuestión_
 
-_il faut aussi décrire les risques encourus si l'on ne respecte pas la pratique_
+_también deben describirse los riesgos que conlleva no seguir la práctica_
 
-Objectif
+Objetivo
 --------
 
-_texte expliquant l'objectif de la pratique et les différents moyens permettant de la respecter_
+_un texto que explica el propósito de la práctica y las diferentes maneras de cumplirlo_
 
-Contrôle
+Control
 --------
 
-_texte décrivant le moyen de contrôler le respect de la pratique_
+_texto que describe los métodos de supervisión del cumplimiento de la práctica_
 
-_Ce text peut soit préciser :_
+_Este texto puede especificar:_
 
-* _Comment une preuve peut être produite prouvant donc le respect de la pratique_
-* _Comment des indices peuvent être récoltés montrant un certain degré du respect de la pratique_
-* _Comment une impression peut être observée montrant un relatif respect de la pratique_
+* _Cómo se pueden presentar pruebas para demostrar el cumplimiento de la práctica_
+* _Cómo se pueden reunir datos que demuestren un cierto grado de cumplimiento de la práctica_
+* _Cómo se puede apreciar una impresión que muestre un relativo respeto por la práctica_
