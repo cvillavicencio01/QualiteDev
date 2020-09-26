@@ -6,7 +6,7 @@ Su objetivo es mejorar intrínsecamente un artefacto. De hecho, no seguir una pr
 
 Es posible expresar la importancia de seguir una práctica y especificar si la práctica es inevitable o muy aconsejable.
 
-Por último, para cada práctica, el cumplimiento puede supervisarse mediante pruebas, indices o impresiones.
+Por último, para cada práctica, el cumplimiento puede supervisarse mediante pruebas, datos o impresiones.
 
 
 Plantilla de descripción de una práctica
