@@ -1,24 +1,24 @@
-Identifier les issues de manière unique
-=======================================
+Identificar de manera única los requisitos
+==========================================
 
-Les **issues** doivent être identifiées de manière unique. Il faut en effet que chaque issue ait un identifiant unique dans votre projet.
+Los requisitos deben ser identificados de manera única. Cada requisitos debe tener un identificador único en su proyecto.
 
-Cet identifiant permet de distinguer l'issue de n'importe quelle autre issue quel que soit son état d'avancement.
+Este identificador permite distinguir el requisito de cualquier otro, independientemente de su estado.
 
-Si les issues n'ont pas d'identifiant, on peut mélanger plusieurs issues. Cela a pour conséquence de mal maîtriser la gestion des issues. Au pire, on peut oublier des issues et ainsi ne pas réaliser un logiciel correspondant au besoin exprimé.
+Si los requisitos no tienen un identificador, se pueden mezclar con otros. Esto da lugar a un control deficiente de la gestión de las requisitos. En el peor de los casos, podemos olvidarnos de los requisitos y, por lo tanto, no crear un software que corresponda a la necesidad expresada.
 
-Objectif
+Objetivo
 --------
 
-Cette pratique est très simple à mettre en oeuvre. Il suffit de donner un identifiant unique à chaque issue.
+Esta práctica es muy simple de implementar. Todo lo que tienes que hacer es dar un identificador único a cada requisito.
 
-La manière la plus simple est d'attribuer un numéro à chaque création d'issue. Ce numéro peut être construit de manière incrémental (on commence à partir du numéro 1 et on ajoute 1 à chaque nouvelle issue).
+La forma más fácil es asignar un número a cada requisito. Este número puede construirse de forma incremental (empezando por el número 1 y añadiendo 1 a cada nuevo requisito).
 
-Il est déconseillé de donner une sémantique à l'identifiant pour par exemple donner du sens à l'issue. Certains projets utilisent des préfixes aux identifiants pour grouper les issues entre elles. Au long terme, cela est contre productif. Il vaut mieux garder un unique objectif qui est d'identifier les issues de manière unique dans le projet.
+No es aconsejable dar una semántica al identificador, por ejemplo para dar significado al requisito. Algunos proyectos utilizan prefijos como identificadores para agruparlos. A largo plazo, esto es contraproducente. Es mejor mantener un único objetivo que es identificar los requisitos de manera única en el proyecto.
 
-Contrôle
+Control
 --------
 
-Pour contrôler cette pratique, il suffit de parcourir toutes les issues et de vérifier qu'elles ont chacune un identifiant unique. On peut alors prouver que cette pratique est bien respectée.
+Para controlar esta práctica, simplemente hay que recorrer todos los requisitos y comprobar que cada uno de ellos tiene un identificador único. Así se podrá comprobar que esta práctica es respetada.
 
-On peut même demander quel mécanisme est utilisé pour trouver un nouvel identifiant.
+Incluso se puede plantear qué mecanismo se puede utilizar para encontrar un nuevo identificador.
