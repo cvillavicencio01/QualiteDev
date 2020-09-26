@@ -1,27 +1,27 @@
-Comment décrire une bonne pratique ?
-====================================
+¿Cómo describir una buena práctica?
+===================================
 
-Une bonne pratique cible un unique type d'artefact logiciel (issue, tâche, test, code source, documentation et release).
+Una buena práctica se dirige a un solo tipo de artefacto de software (requisito de usuario, tarea, prueba, código fuente, documentación y lanzamiento).
+Su objetivo es mejorar intrínsecamente un artefacto. De hecho, no seguir una práctica tiene un impacto negativo en el artefacto.
 
-Elle a pour objectif d'améliorer intrinsèquement un artefact. De fait, ne pas suivre une pratique a un impact négatif sur l'artefact.
+Es posible expresar la importancia de seguir una práctica y especificar si la práctica es inevitable o muy aconsejable.
 
-Il est possible d'exprimer l'importance du suivi d'une pratique et de précisier si la pratique est incontournable ou fortement conseillée.
+Por último, para cada práctica, el cumplimiento puede supervisarse mediante pruebas, indices o impresiones.
 
-Enfin, pour chaque pratique, son respect peut être contrôlé soit par une preuve, des indices ou une impression.
 
-Template de description d'une pratique
-======================================
+Plantilla de descripción de una práctica
+========================================
 
-Le template [suivant](./TEMPLATE.md) permet de décrire de manière homogène toutes les pratiques identifiées par le recueil.
+La plantilla [siguiente](./TEMPLATE.md) permite describir de forma homogénea todas las prácticas identificadas por la colección???.
 
-Il précise :
+Esta precisa:
 
-1. ce qu'il faut faire pour améliorer l'artefact.
-2. le moyen de contrôle permettant de savoir si la pratique est (ou non) respectée
+1. lo que hay que hacer para mejorar el artefacto.
+2. los medios de control que permiten saber si la práctica es (o no) respetada
 
-La description d'une bonne pratique comporte donc les éléments suivants:
+Por consiguiente, la descripción de una buena práctica incluye los siguientes elementos:
 
-* le type d'artefact ciblé
-* l'apport de la pratique (ou l'effet négatif en cas de non respect)
-* l'objectif ciblé par la pratique, c'est à dire ce qu'il faut faire pour améliorer la qualité de l'artefact
-* le moyen de contrôler le respect de la pratique. Cela peut être une preuve, des indices ou des impressions.
+* el tipo de artefacto que se ha elegido como objetivo
+* la contribución de la práctica (o el efecto negativo en caso de incumplimiento)
+* el objetivo que se persigue con la práctica, es decir, qué hacer para mejorar la calidad del artefacto
+* los medios para controlar el cumplimiento. Esto puede ser evidencia, indices o impresiones.
