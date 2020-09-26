@@ -1,53 +1,53 @@
-Les issues : 5 pratiques incontournables
-========================================
+Los requisitos de usuario : 5 prácticas esenciales
+==================================================
 
-Les issues, c'est quoi ?
-------------------------
+Los requisitos de usuario, ¿Qué son?
+------------------------------------
 
-Une **issue** est l'expression d'un besoin particulier. L'issue est rédigée par le propriétaire ou l'utlisateur du logiciel (ils savent ce qu'ils veulent avoir). Pour autant, l'issue est à destination des développeurs qui vont devoir les comprendre pour les réaliser.
+Un **requisito de usuario** es la expresión de una necesidad particular. El requisito de usuario es escrito por el propietario o el usuario del software (ellos saben lo que quieren tener). Sin embargo, el tema está dirigido a los desarrolladores que tendrán que entenderlos para poder hacerlos realidad, y en ese caso hablamos mas bien de [Especificación de Requisitos de Software (ESR)](https://es.wikipedia.org/wiki/Especificación_de_requisitos_de_software). Donde estos ESR deben estar en un documento acordado y redactado por todas las partes (usuarios y desarrolladores), pero esto es otro tema. En este documento nos centraremos en los requisitos de usuario.
 
-Toutes les méthodes de génie logiciel demandent à ce que les issues soient clairement exprimées. L'objectif étant que les développeurs comprennent les besoins et réalisent le logiciel qui y réponde.
+Todos los métodos de ingeniería de software requieren resultados claros. El objetivo es que los desarrolladores entiendan las necesidades y creen software que satisfaga a los usuarios.
 
-C'est principalement lorsque les besoins sont mal exprimés que les projets logiciels échouent.
-Il faut donc prendre une attention toute particulière à la rédaction des issues.
+Especialmente es cuando las necesidades están mal expresadas que los proyectos de software fracasan.
+Por lo tanto, debe prestarse especial atención a la redacción de estos requisitos.
 
-Il existe différentes façons de rédiger une issue selon la méthode suivie :
+Hay diferentes maneras de escribir un requisito dependiendo del método utilizado:
 
-* Les méthodes mathématiques ou rigoureuses demandent à ce que les issues soient des contraintes rédigées dans un formalisme formel. Cela peut être par exemple une formule de logique booléenne ou même une règle mathématique.
-* Les méthodes par modélisation telles que UML proposent des langages adéquats pour rédigier les issues. En UML, on peut par exemple utiliser les diagrammes de cas d'utilisation.
-* Les méthodes agiles demandent à ce que les issues soient rédigées en langage naturel sous forme de scénario utilisateur (user story). La rédaction d'un scénario peut suivre un template pré-défini (en tant que <...> je souhaite <...> afin de <...>).
+* Los métodos matemáticos o rigurosos requieren que los resultados sean restricciones escritas de manera formal. Esto puede ser, por ejemplo, una fórmula de lógica booleana o incluso una regla matemática.
+* Los métodos de modelización como el UML ofrecen lenguajes adecuados para escribir los requisitos de usuario. En el UML, podemos, por ejemplo, utilizar diagramas de casos de uso.
+* Los métodos ágiles requieren que los requisitos se escriban en lenguaje natural en forma de una [Historia de Usuario](https://es.wikipedia.org/wiki/Historias_de_usuario). La escritura de un escenario puede seguir una plantilla predefinida ("Como (rol) quiero (algo) para poder (beneficio)").
 * etc.
 
-Si la rédaction des issues est importante, il en va de même pour leur gestion. La gestion d'une issue permet de suivre son évolution dans le temps. Une issue passe généralement par plusieurs stades :
+Si la redacción de los requisitos es importante, también lo es su gestión. La gestión de un requisito permite seguir su evolución a lo largo del tiempo. Un requisito generalmente pasa por varias etapas:
 
-* en cours de rédaction, lorsque l'issue n'est pas encore pleinement rédigée.
-* rédigée et en attente de qualification, lorsque l'issue est rédigée mais qu'elle n'a pas été qualifiée. La qualification permet de préciser le type de l'issue : est-ce une demande de nouvelle fonctionnalité ? une évolution d'une fonctionnalité existante ? une correction de bug ? une optimisation des performances ? etc.
-* qualifiée et en attente de planification, lorsque l'issue est validée mais que sa réalisation n'est pas encore planifiée. La planification permet de placer l'issue sur une feuille de route et ainsi de savoir quand elle sera réalisée.
-* planifiée, on sait alors quand l'issue sera réalisée.
-* testable, lorsque l'issue dispose d'un [test](../test) qui permettra, une fois l'issue réalisée, de vérifier sa réalisation.
-* en cours de réalisation, c'est lorsque que les tâches permettant de réaliser l'issue ont démarré.
-* réalisée, lorsque toutes les tâches permettant de réaliser l'issue ont été faites.
-* testée, lorsque l'issue est réalisée et qu'elle a été testée. En principe on considère que l'issue est testée quand le test a été passé (positif)
-* livrée ou déployée, lorsque l'issue est accessible par les utilisateurs. Lorsqu'elle a été intégrée dans une [release](../release)
+* en proceso de redacción, cuando el resultado aún no está completamente redactado.
+* escrito y en espera de evaluación, donde el resultado está escrito pero no ha sido evaluado. La evaluación permite especificar el tipo de requisito: ¿si es la solicitud de una nueva característica? ¿una evolución de una característica existente? ¿una corrección de errores? ¿una optimización del rendimiento? etc.
+* evaluado y en espera de la planificación, cuando el requisito se valida pero aún no se haya planificado. La planificación permite colocar el resultado en una hoja de ruta y así saber cuándo se realizará.
+* planificado, entonces sabemos cuándo se alcanzará el resultado.
+* que se pueda probar. cuando el requisito tiene una [prueba](../test) que permitirá, una vez realizado el requisito, verificar su realización.
+* en curso de realización, cuando las tareas que permiten realizar el requisito han comenzado.
+* realizado, cuando se hayan realizado todas las tareas necesarias para completar el requisito.
+* probado, cuando el requisito se alcanza y se prueba. En principio, el requisito se considera probado cuando se ha superado la prueba (positivo).
+* entregado o desplegado, cuando el requisito es accesible para los usuarios. Cuando se ha integrado en un [lanzamiento (release)](../release)
 
-Qu'est-ce que la qualité des issues ?
+¿Qué es la calidad de los requisitos?
 -------------------------------------
 
-La qualité du logiciel repose grandement sur la qualité des issues. Si les issues ne sont pas de bonne qualité on dit qu'il y a plus de 80% de chance que le projet n'aboutisse pas.
+La calidad del software depende en gran medida de la calidad de los requisitos. Si los requisitos no son de buena calidad, hay más de un 80% de posibilidades de que el proyecto no tenga éxito.
 
-La qualité de issue se retrouve dans la rédaction et dans le suivi. Il faut en effet que les issues soient parfaitement rédigées mais aussi que leur gestion soit précise.
+La calidad del requisito se refleja en la redacción y en el seguimiento. En efecto, los requisitos deben estar perfectamente escritos, pero también su gestión debe ser precisa.
 
-Liste des bonnes pratiques :
+Lista de buenas prácticas:
 ----------------------------
 
-### Rédaction
+### Redacción
 
-* [identifier les issues de manière unique](./identifier.md)
-* [préciser les issues](./preciser.md)
-* [homogénéiser les issues](./homogeneiser.md)
+* [identificar de manera única los requisitos](./identifier.md)
+* [aclarar o precisar los requisitos](./preciser.md)
+* [homogeneizar los requisitos](./homogeneiser.md)
 
-### Gestion des modifications
+### Gestión de modificaciones
 
-* [qualifier le type des issues, leur importance et leur difficulté](./qualifier.md)
-* [planifier les issues dans le temps](./planifier.md)
-* [fermer une issue](./fermer.md)
+* [calificar el tipo de requisitos, su importancia y dificultad](./qualifier.md)
+* [planear los requisitos a lo largo del tiempo](./planifier.md)
+* [cerrar un requisito](./fermer.md)
