@@ -10,15 +10,15 @@ Si los resultados no son homogéneos, esto significa que hay requisitos grandes 
 Objetivo
 --------
 
-Il faut cibler la granularité moyenne permettant de rédiger des issues homogènes. Ce niveau de granularité permet de savoir à quel niveau de décomposition des besoins correspond une issue.
+Apunta a la granularidad media que nos permita de redactar requisitos lo mas homogéneos posible. Este nivel de granularidad permite saber a qué nivel de descomposición de las necesidades corresponde un requisito.
 
-C'est en regardant l'intégralité des issues qu'on arrive à voir si les issues sont homogènes. Si certaines issues sont trop grosses (trop générales) ou d'autres trop petites (trop centrées sur un sous-besoin particulier), c'est que les issues ne sont pas homogènes.
+Al observar la totalidad de los requisitos es donde podemos apreciar si los requisitos son homogéneos. Si algunos requisitos son demasiado grandes (demasiado generales) u otros demasiado pequeños (demasiado centrados en una subnecesidad particular), entonces los resultados no son homogéneos.
 
-Il faut alors rendre l'ensemble des issues homogène.
+En este caso, debemos hacer que los requisitos sean homogéneos.
 
-Contrôle
+Control
 --------
 
-Vérifier que les issues sont homogènes ne peut se faire que par l'audit d'un expert.
+Verificar que los requisitos sean homogéneos sólo puede hacerse mediante la auditoría de un experto.
 
-L'expert, en auditant les issues, va mesurer l'homogénéité de l'ensemble des issues.
+El experto, al auditar los requisitos, medirá la homogeneidad de todas ellas.
