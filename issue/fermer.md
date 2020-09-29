@@ -1,25 +1,24 @@
-_Fermer une issue_
+_Cerrar un requisito_
 ==========================
 
-*C'est celui qui ouvre qui ferme.*
+*Es aquel quien abre el que cierra.*
 
-Une issue représente un besoin ou un dysfonctionnement. Il peut être tentant de fermer une issue dès que le développement associé est terminé du point de vue du développeur. Idéalement, la personne qui crée une issue doit vérifier que la solution apportée correspond bien au besoin initial. Quand l'objet de l'issue n'a plus lieu d'être, l'issue peut être fermée.
+Un requisito representa una necesidad o un mal funcionamiento. Puede ser tentador cerrar un requisito tan pronto como el desarrollo asociado se haya completado desde el punto de vista del desarrollador. Lo ideal es que la persona que cree un requisito verifique que la solución proporcionada corresponda a la necesidad original. Cuando el propósito del requisito ya no es relevante, el requisito puede ser cerrado.
 
-Objectif
+Objetivo
 --------
 
-L'objectif de cette pratique est de s'assurer que les issues sont fermées quand tous les aspects du problème ont été pris en compte. Une façon d'y arriver est de s'assurer que la personne à l'origine de l'issue est satisfaite de la solution apportée.
+El propósito de esta práctica es asegurar que los requisitos se cierren cuando se hayan considerado todos los aspectos del problema. Una forma de hacerlo es asegurarse de que la persona que creó el requisito esté satisfecha con la solución.
 
-Quand le travail de développement est terminé sur une issue, une étiquette spécifique peut être associée à l'issue pour demander à son créateur si son objet est encore valable.
+Cuando el trabajo de desarrollo de un requisito se completa, se puede colocar una etiqueta específica al requisito para consultar al creador si su objeto sigue siendo válido.
 
-Cette pratique est en principe applicable quel que soit le profil du créateur de l'issue : utilisateur de l'application, chef de projet ou développeur.
+En principio, esta práctica es aplicable independientemente del perfil del creador del requisito: usuario de la aplicación, director de proyecto o desarrollador.
 
-Contrôle
+Control
 --------
 
-Il est aisé de contrôler cette pratique en regardant qui ferme les issues.
+Es fácil controlar esta práctica observando quién cierra los requisitos.
 
-Quand une personne autre que le créateur d'une issue ferme une issue, celle-ci peut être réouverte avec un label
-spécifique, pour que le créateur puisse donner son avis.
+Cuando alguien que no sea el creador de un requisito cierra uno, puede reabrirlo con una etiqueta específica, para que el creador pueda dar su opinión.
 
-On peut en théorie quantifier l'utilisation de cette pratique en regardant la proportion d'issues fermées par leur créateur par rapport au nombre total d'issues fermées.
+En teoría, el uso de esta práctica puede cuantificarse observando la proporción de requisitos cerrados por su creador en relación con el número total de requisitos cerrados.
