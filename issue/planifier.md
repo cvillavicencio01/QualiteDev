@@ -1,36 +1,36 @@
-Planifier les issues dans le temps
-==================================
+Planificar los requisitos a lo largo del tiempo
+===============================================
 
-Une fois qu'une issue a été qualifiée, il faut qu'elle soit planifiée, c'est à dire qu'il faut prévoir à quel moment elle sera réalisée.
+Una vez que se ha calificado un requisito, hay que planearlo, es decir, hay que anticipar cuándo se va a lograr.
 
-La planification est importante car elle permet d'avoir une visibilité sur l'avancement du développement du logiciel (road map). Sans planification, il n'est pas possible de savoir quand telles ou telles issues seront réalisées.
+La planificación es importante porque da visibilidad al progreso del desarrollo del software (hoja de ruta). Sin planificación, no es posible saber cuándo se realizarán tales o cuales requisitos.
 
-La planificiation consiste à poser les issues sur une sorte de calendrier. Le calendrier peut être concret (des jours ou des semaines) ou abstrait (des sprints, des séquences d'issues).
+La planificación consiste en poner los temas en una especie de calendario. El calendario puede ser concreto (días o semanas) o abstracto (sprints, secuencias de requisitos).
 
-Il n'est pas nécessaire de planifier toutes les issues. Seules celles qui ont été qualifiées peuvent être planfiiées, et encore, il n'est pas nécessaire de toutes les planifier.
+No es necesario planificar todos los requisitos. Sólo pueden planificarse aquellos que han sido clasificados, y no todos tienen que ser planificados.
 
-Pour autant, il est important que la planification couvre les échéances à venir (les prochaines semaines ou les périodes à venir).
+Sin embargo, es importante que la planificación abarque fechas límite (las próximas semanas o períodos en el futuro).
 
-Une issue planifiée va être réalisée. Une fois réalisée, il faut préciser que l'issue a été réalisée. Si tel n'est pas le cas c'est que la planification de l'issue a été changée. Là encore, il faut préciser cela.
+Supongamos que un requisito ya planificado va a ser realizado. Una vez realizado, debe especificarse que el requisito se ha cumplido. Si no es así, se ha alterado la planificación del mismo. Es por esto que debe ser precisada nuevamente.
 
-Objectif
+Objetivo
 --------
 
-Pour pouvoir planifier les issues, il faut déjà définir le calendrier du projet. Celui-ci peut être basé sur les jours ou les semaines, ou bien sur des notions plus abstraites (des sprints pour Scrum).
+Para poder planificar los requisitos, el calendario del proyecto debe estar ya definido. Esto puede basarse en días o semanas, o en nociones más abstractas (sprints para Scrum).
 
-Ensuite, la planification consiste simplement à affecter des issues qualifiées à des périodes du calendrier.
+Entonces, la planificación es simplemente una cuestión de asignar requisitos clasificados a períodos del calendario.
 
-La planification doit prendre en compte le niveau d'urgence des issues ainsi que leur difficulté. On privilégiera de planifier les issues urgentes sur les périodes à venir. La difficulté des issues permet, quant à elle, de faire une planification relativement homogène (chaque période devra avoir la même charge).
+La planificación debe tener en cuenta la urgencia de los requisitos y su dificultad. La atención debe centrarse en la planificación de los requisitos urgentes. La dificultad de los requisitos permite una planificación relativamente homogénea (cada período debe tener la misma carga).
 
-Enfin, il faut préciser les issues qui ont été réalisées et celles dont la planification a changé.
+Por último, es necesario especificar qué requisitos se han llevado a cabo y aquellos para los que ha cambiado la planificación.
 
-Contrôle
+Control
 --------
 
-Le contrôle peut être fait automatiquement.
+El control puede hacerse automáticamente.
 
-Il faut déjà identifier le calendrier du projet et savoir quelles sont ses périodes.
+Solo hace falta identificar el calendario del proyecto y saber cuáles son sus plazos.
 
-Ensuite, il faut s'assurer que des issues ont été planfiées sur des périodes à venir et que la planification est homogène quant à la charge.
+Entonces, hay que asegurarse de que los requisitos se han planificado para los períodos asignados y que la planificación es homogénea en cuanto a la carga.
 
-Enfin, il faut préciser si les issues ont été réalisées ou si leur planification a été modifiée.
+Por último, es necesario especificar si se han logrado los requisitos o si se ha modificado su planificación.
