@@ -1,46 +1,48 @@
-Les tâches : 5 pratiques incontournables
-========================================
+Las Tareas : 5 prácticas esenciales
+===================================
 
-Une tâche, c'est quoi ?
-------------------------
+¿Qué es una tarea?
+------------------
 
-Une **tâche** décrit un travail qui va être effectué par un développeur dans l'objectif de réaliser une ou plusieurs [issues](../issue).
+Una **tarea** describe el trabajo que realizará un desarrollador con el objetivo de lograr uno o más [requisitos](../issue).
 
-Faire une tâche c'est essentiellement [coder](../code) mais cela peut être aussi [tester](../test), rédiger de la [documentation](../doc) et même construire une [release](../release).
+Realizar una tarea es esencialmente [codificar](../code), pero también puede ser [probar](../test), escribir la [documentación](../doc) e incluso construir un [lanzamiento](../doc) de una versión del proyecto.
 
-Une tâche a bien souvent une granularité fine, limitée dans le temps et l'espace. Une tâche est souvent affectée à un seul développeur et ne nécessite au plus que quelques jours de travail. Si une tâche est réalisée par plusieurs développeurs et nécessite plusieurs jours, c'est bien souvent qu'elle est mal dimensionnée. Une très grande tâche est une entreprise bien plus grande (un mini projet) qui nécessite la réalisation de plusieurs tâches (plus petites).
+Una tarea a menudo tiene una granularidad fina, limitada en el tiempo y el espacio. A menudo se asigna una tarea a un solo desarrollador y sólo requiere unos pocos días de trabajo como mucho. Si una tarea es llevada a cabo por varios desarrolladores y requiere varios días, a menudo está mal dimensionada. Una tarea muy grande es una labor mucho más grande (un mini proyecto) que requiere la realización de varias tareas (más pequeñas).
 
-Une tâche doit être précise. Les tâches sont bien souvent rédigées par des développeurs et faites par d'autres développeurs. Il faut donc que les développeurs qui feront les tâches comprennent sans ambiguité ce qu'ils doivent faire. La **definition of done (DOD)** doit être des plus précise. En outre, si la tâche consiste à coder, faut-il faire les tests ou seront-ils fait dans une autre tâche ? Impossible de répondre à cette question sans détailler très précisément la tâche et son DOD.
+Una tarea debe ser específica. Las tareas suelen ser escritas por los desarrolladores y realizadas por otros desarrolladores. Por lo tanto, los desarrolladores que harán las tareas deben tener una clara comprensión de lo que necesitan hacer. La **definición de terminado (Definition of Done, DOD)** debe ser muy precisa. Además, si la tarea es codificar, ¿tambien contemplan las pruebas o estas se harán en otra tarea? Es imposible responder a esta pregunta sin detallar la tarea y su DOD con mucha precisión.
 
-Une tâche est obligatoirement liée à une ou plusieurs issues. Sinon c'est qu'un travail est fait mais qu'il ne sert pas l'objectif du projet. En principe, la réalisation d'une issue nécessite de faire plusieurs tâches. Certaines tâches, les tâches d'infrastructure par exemple (installation d'un environnement de développement, de test ou d'intégration continu), sont naturellement liées à toutes les issues d'un projet. Si les tâches ne sont pas liées aux issues ou si le lien n'est pas explicite, on ne peut alors pas savoir ce qu'il **Reste A Faire (RAF)** pour réaliser une issue. On n'a alors aucune vision sur l'avancement du projet.
+Una tarea está vinculada obligatoriamente a uno o más requisitos. De lo contrario, significa que un trabajo está hecho pero no sirve de nada para el propósito del proyecto. En principio, el cumplimiento de un requisito requiere la realización de varias tareas. Algunas tareas, por ejemplo las de infraestructura (instalación de un entorno de desarrollo, pruebas o integración continua), están naturalmente vinculadas a todos los requisitos de un proyecto. Si las tareas no están vinculadas a los requisitos, o si el vínculo no es explícito, entonces no es posible saber qué es lo que **Falta por Hacer (FPH)** para lograr un requisito. Por lo tanto no tendremos ninguna visión sobre el progreso del proyecto.
 
-Une fois rédigées, l'équipe peut s'organiser pour savoir qui doit faire quelle tâche et quand. Pour ce faire, il existe deux grandes méthodes. La première méthode vise à trouver l'organisation la plus idéale en temps et en ressources. Cette organisation est classiquement faite par le chef de projet qui va ordonner les tâches en fonction de leur coût (en temps) et des ressources dont il dispose. La deuxième méthode consiste à laisser l'équipe (et donc les développeurs) s'auto-organiser. Chaque développeur peut par exemple choisir tous les matins les tâches qu'il peut faire dans la journée.
+Una vez redactada, el equipo puede organizar quién debe hacer qué tarea y cuándo. Hay dos métodos principales para hacer esto. El primer método es encontrar la organización ideal en términos de tiempo y recursos. Esta organización la realiza normalmente el director del proyecto, que ordenará las tareas en función de su coste (en tiempo) y de los recursos de que disponga. El segundo método consiste en dejar que el equipo (y por lo tanto los desarrolladores) se organicen. Cada desarrollador puede, por ejemplo, elegir cada mañana las tareas que puede hacer durante el día.
 
-Dès lors que l'organisation est faite, il ne reste plus qu'à faire les tâches et à suivre leur réalisation. Classiquement on dit qu'une tâche est **à faire (TODO)**, **en cours de réalisation (ON GOING)** et **faite (DONE)**. Bien évidemment, il est possible d'ajouter d'autres étapes si on veut faire un suivi plus précis de l'avancement des tâches. Le suivi des tâches est absolument indispensable pour mesurer l'avancement du projet. Il permet de connaître la vitesse de croisière du projet (combien d'issues sont réalisées en combien de temps) et permet ainsi de faire des projections sur les dates de livraison.
+Tan pronto como la organización esté terminada, todo lo que queda es hacer las tareas y supervisar su realización. Clásicamente decimos que una tarea está **por hacer (TODO)**, **en curso (ON GOING)** y **terminada (DONE)**. Por supuesto, es posible añadir otros pasos si se quiere seguir el progreso de las tareas con más precisión. El seguimiento de las tareas es absolutamente esencial para medir el progreso del proyecto. Permite conocer la velocidad del proyecto (cuántos temas se completan en cuánto tiempo) y por lo tanto permite hacer proyecciones sobre las fechas de entrega.
 
-Qu'est-ce que la qualité d'une tâche ?
---------------------------------------
 
-Les tâches sont au coeur de l'avancement du projet. La qualité des tâches d'un projet fait la qualité réelle d'un projet.
+¿Qué es la calidad de una tarea?
+--------------------------------
 
-La qualité d'une tâche c'est essentiellement sa rédaction et sa gestion :
+Las tareas son el centro del progreso del proyecto. La calidad de las tareas de un proyecto hacen la calidad real de un proyecto.
 
-* la granularité doit être limitée
-* la précision doit être très fine
-* le lien avec les issues qui doit être clairement défini
-* l'organisation doit être établie
-* le suivi doit être réalisé
+La calidad de una tarea es esencialmente su redacción y gestión:
 
-Liste des bonnes pratiques :
-----------------------------
+* la granularidad debe ser limitada
+* la precisión debe ser muy fina
+* el vínculo con los requisitos debe ser claramente definido
+* la organización debe ser establecida
+* se debe llevar a cabo una seguimiento
 
-### Rédaction
 
-* [limiter le travail demandé par une tâche](./limiter.md)
-* [préciser le travail à faire](./preciser.md)
-* [lier les tâches aux issues](./lier.md)
+Lista de buenas prácticas :
+---------------------------
 
-### Gestion
+### Redacción
 
-* [organiser vos tâches](./organiser.md)
-* [faire un suivi de l'avancement des tâches](./suivre.md)
+* [limitar el trabajo requerido por una tarea](./limiter.md)
+* [especificar el trabajo a realizar](./preciser.md)
+* [vincular las tareas a los requisitos](./lier.md)
+
+### Gestión
+
+* [organizar sus tareas](./organiser.md)
+* [seguir el progreso de la tarea](./suivre.md)
